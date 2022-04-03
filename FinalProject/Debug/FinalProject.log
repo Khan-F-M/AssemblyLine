@@ -1,0 +1,11 @@
+﻿  Station.cpp
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.h(22,21): error C2061: syntax error: identifier 'string'
+  Utilities.cpp
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.h(22,21): error C2061: syntax error: identifier 'string'
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.cpp(20,2): error C2511: 'std::string sdds::Utilities::ltrim(std::string &)': overloaded member function not found in 'sdds::Utilities'
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.h(13): message : see declaration of 'sdds::Utilities'
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.cpp(46,22): error C2660: 'sdds::Utilities::ltrim': function does not take 1 arguments
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.h(22,15): message : see declaration of 'sdds::Utilities::ltrim'
+  ms1.cpp
+D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Utilities.h(22,21): error C2061: syntax error: identifier 'string'
+  Generating Code...

@@ -1,0 +1,73 @@
+				    "Parsing String Data"
+---------------------------------------------------------------------------------------------------
+Parsing is breaking a block of data into smaller pieces (tokens) by following a set of rules      |
+(using delimiters for example), so that this data could be processes piece by piece (managed,     | 
+analysed, interpreted, transmitted, ets).                                                         |
+---------------------------------------------------------------------------------------------------
+
+				            Tokens
+---------------------------------------------------------------------------------------------------
+A token is the smallest individual unit in a program, often referring to a portion of a much      |
+larger data piece. For example, if a person's name is John Thomas Wood, it can be broken into     |
+tokens; 'John', 'Thomas' and 'Wood'. The programmer can then go on to use only the portion or     |
+token they wish to.									          |
+---------------------------------------------------------------------------------------------------
+
+				    The Utilities Module
+---------------------------------------------------------------------------------------------------
+Parsing string data from input files into tokens is performed uniformly for all objects           | 
+within the simulation system. The Utilities type provides the basic functionality required        | 
+for all objects in the system.								          |
+											          |
+Layman Terms: Breaking data in the form of a string from input files into smaller pieces          |
+---------------------------------------------------------------------------------------------------
+
+				         string::find
+---------------------------------------------------------------------------------------------------
+The string is searched for the first instance of the sequence (letters, phrases, names) supplied  |
+by its parameters.								                  |
+												  |
+When the user specifies pos(position), this method exclusively looks for the sequence at or after |
+that position. Disregarding any previous occurrences. 						  |
+												  |
+Returns the position of the first character of the first match.					  |
+If no matches were found, the function returns string::npos.					  |
+					 							  |
+												  |
+PARAMETERS											  |
+**********										          |
+string: size_t find (const string& str, size_t pos = 0) const;					  |
+c-string: size_t find (const char* s, size_t pos = 0) const;                                      |
+buffer: size_t find (const char* s, size_t pos, size_t n) const;				  |
+character: size_t find (char c, size_t pos = 0) const;						  |
+												  |
+---------------------------------------------------------------------------------------------------
+
+				         string::substr
+---------------------------------------------------------------------------------------------------
+The substring is the portion of the object that starts at character position "pos" and spans "len"| 
+characters (or until the end of the string, whichever comes first).				  |	
+												  |
+Returns a newly constructed string object with its value initialized to a copy of a substring of  |
+this[this--->str<---this.substr(...)] object.											  |
+												  |
+OR (SIMPLY PUT)											  |
+											          |
+A string object with a substring of this object.                                                  |
+										                  |
+												  |
+PARAMETERS											  |
+**********										          |
+string substr (size_t pos = 0, size_t len = npos) const;					  |
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
