@@ -41,4 +41,5 @@ https://www.cplusplus.com/reference/string/string/find_first_not_of/
 http://www.cplusplus.com/forum/general/115700/
 https://www.techiedelight.com/trim-string-cpp-remove-leading-trailing-spaces/#:~:text=We%20can%20use%20a%20combination,functions%20to%20trim%20the%20string.
 https://stackoverflow.com/questions/46514209/c-how-to-use-find-first-not-of
+https://www.cplusplus.com/reference/vector/vector/
 */

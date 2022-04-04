@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ms1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Station.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ms2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,15 +35,15 @@
     <ClInclude Include="Station.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CustomerOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Stations1.txt">
+    <Text Include="CustomerOrders.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="Stations2.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="ms1_output.txt">
+    <Text Include="ms2_output.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
