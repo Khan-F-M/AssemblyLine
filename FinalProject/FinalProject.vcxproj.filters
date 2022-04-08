@@ -27,6 +27,9 @@
     <ClCompile Include="ms2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Workstation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utilities.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CustomerOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Workstation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

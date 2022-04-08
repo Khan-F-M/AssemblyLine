@@ -144,11 +144,13 @@
     <ClCompile Include="ms2.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Workstation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomerOrder.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Workstation.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CustomerOrders.txt" />

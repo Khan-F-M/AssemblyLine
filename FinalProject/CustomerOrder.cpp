@@ -1,7 +1,7 @@
 // Name: Muhammad F. Khan
 // Seneca Student ID: 113-524-201
 // Seneca email: mkhan275@myseneca.ca
-// Date of completion: 4/3/2022
+// Date of completion: 4/8/2022
 //
 // I confirm that I am the only author of this file
 //   and the content was created entirely by me.
@@ -41,32 +41,24 @@ namespace sdds {
 		size_t next_pos = 0;
 		bool more;
 
-		// Extract all tokens from the string
 		do {
 
 			tokens.push_back(rtrim(temp.extractToken(input, next_pos, more)));
 
 		} while (more);
 
-		// Set the item count to be equal to the number of tokens...
-		// minus 2 (for the customer and product name)
 		m_cntItem = tokens.size() - 2;
 
-		// Initialize the list of 'Items' dynamically
 		m_lstItem = new Item * [m_cntItem];
 
-		// Populate the object with the extracted data
 		for (size_t i = 0; i < tokens.size(); i++) {
 
-			// If x == 0, the extracted token is the name of the customer
 			if (i == 0) {
 				m_name = tokens[i];
 			}
-			// If x == 1, the extracted token is the name of the product
 			else if (i == 1) {
 				m_product = tokens[i];
 			}
-			// If x > 1, the extracted token is all the pieces to be assembled
 			else {
 				m_lstItem[i - 2] = new Item(tokens[i]); 
 			}

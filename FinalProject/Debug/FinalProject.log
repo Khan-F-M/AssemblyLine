@@ -1,6 +1,7 @@
 ﻿  CustomerOrder.cpp
-  ms1.cpp
+  ms2.cpp
   Station.cpp
   Utilities.cpp
+  Workstation.cpp
   Generating Code...
   FinalProject.vcxproj -> D:\CPA Semester 3\OOP345\OOP-MYFINALPROJECT\FinalProject\Debug\FinalProject.exe
